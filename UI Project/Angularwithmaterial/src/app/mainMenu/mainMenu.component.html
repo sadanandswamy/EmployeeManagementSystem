@@ -1,0 +1,68 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="background-color: #e3f2fd;">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" routerLink='appolloTech'>ApolloTech <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" routerLink='marketingservices' id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Marketing Services
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Digital Marketing</a>
+                    <a class="dropdown-item" href="#">Direct Mail</a>
+
+                    <a class="dropdown-item" href="#">Service Marketing</a>
+                    <a class="dropdown-item" href="#">Full Service and  Media</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " routerLink='specialoffers'>Special Offers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " routerLink='aboutus'>About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " routerLink='careers'>Careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " routerLink='contact'>Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " routerLink='list'>All Employees</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " routerLink='create'>New Employee</a>
+            </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+            <div style="float:left">
+               <span style="color:white"> {{currentUser}}
+                </span>
+            </div>
+            <div style="float: right">
+                &nbsp;
+                <button type="submit" class="btn btn-outline-success"   routerLink='register'>Existing User? <strong>Resigter</strong></button>                &nbsp;
+               
+                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit"   (click)='onLoginClick(LoginText)'>{{LoginText}}</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</nav>
+
+<div class="container-fluid">
+    <router-outlet>
+
+    </router-outlet>
+</div>

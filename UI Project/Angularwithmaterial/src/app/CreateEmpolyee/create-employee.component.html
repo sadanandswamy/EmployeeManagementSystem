@@ -1,0 +1,226 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <h4 style="text-align:center">Create Employee</h4>
+  </mat-card-header>
+  <!-- <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> -->
+  <mat-card-content>
+    <div>
+
+      <h3 *ngIf="employee" class="alert " [class]="clscolor">
+
+        {{statusMessage}}
+
+      </h3>
+    </div>
+    <form #employeeForm="ngForm" (ngSubmit)="saveEmployee(employee,employeeForm)">
+      <table class="table table-sm">
+
+        <tr>
+          <td>
+            <label class="control-label">Full Name</label>
+          </td>
+          <td>
+            <mat-form-field class="form-group">
+              <input type="text" matInput required name="name" #name="ngModel" placeholder="Full Name" id="name" [(ngModel)]="employee.name">
+              <mat-error *ngIf="name.hasError('required')">Please Enter Name</mat-error>
+            </mat-form-field>
+
+          </td>
+
+          <td>
+            <label class="control-label">Email </label>
+          </td>
+          <td>
+
+            <mat-form-field class="form-group">
+              <input type="text" matInput placeholder="Email" #email="ngModel" email required name="email" id="email" [(ngModel)]="employee.email">
+              <mat-error *ngIf="email.hasError('required')">Please Enter Email</mat-error>
+              <mat-error *ngIf="email.hasError('email')">Please enter valid Email</mat-error>
+            </mat-form-field>
+
+          </td>
+        </tr>
+
+
+
+        <tr>
+          <td>
+            <label class="control-label">Phone Number</label>
+          </td>
+          <td>
+            <mat-form-field class="form-group">
+              <input type="text" matInput required name="phoneNumber" pattern="\d{10}" placeholder="Phone Number" id="phoneNumber" [(ngModel)]="employee.phoneNumber"
+                #phoneNumber="ngModel">
+              <mat-error *ngIf="phoneNumber.hasError('required')">Please Enter Phone Number</mat-error>
+              <mat-error *ngIf="phoneNumber.hasError('pattern')">Please Enter 10 digit only Number</mat-error>
+            </mat-form-field>
+          </td>
+
+          <td>
+            <label class=" control-label">Gender</label>
+          </td>
+          <td>
+            <div [class.has-error]="gender.invalid && gender.touched">
+              <input type="radio" value="male" name="gender" [(ngModel)]="employee.gender" required #gender="ngModel"> Male
+              <input type="radio" value="female" name="gender" required [(ngModel)]="employee.gender" #gender="ngModel">              Female
+
+              <mat-error *ngIf="gender.invalid && gender.touched">
+                Gender required.
+              </mat-error>
+            </div>
+          </td>
+        </tr>
+
+
+
+        <tr>
+          <td>
+            <label class="control-label">Date Of Birth</label>
+          </td>
+          <td>
+            <mat-form-field>
+              <input matInput [matDatepicker]="dateOfBirthDatePicker" name="dateOfBirth" [(ngModel)]="employee.dateOfBirth" #dateOfBirth="ngModel"
+                placeholder="Choose a date" required>
+              <mat-datepicker-toggle matSuffix [for]="dateOfBirthDatePicker"></mat-datepicker-toggle>
+              <mat-datepicker #dateOfBirthDatePicker></mat-datepicker>
+              <mat-error *ngIf="dateOfBirth.invalid && dateOfBirth.touched">
+                select Date
+              </mat-error>
+            </mat-form-field>
+
+          </td>
+          <td>
+            <label class="control-label">Department</label>
+          </td>
+          <td>
+            <mat-form-field>
+
+              <mat-select placeholder="Department Name" [(ngModel)]="employee.departmentId" required [class.has-error]="departmentId.invalid && departmentId.touched"
+                #departmentId="ngModel" name="departmentId" (ngModelChange)="deparmentChange($event)">
+
+                <mat-option [value]="null">Please select</mat-option>
+                <mat-option *ngFor="let dept of departments" [value]="dept.deptId">
+                  {{dept.deptName}}
+                </mat-option>
+              </mat-select>
+              <mat-error *ngIf="departmentId.invalid && departmentId.touched &&  departmentId.errors?.required ">Please choose department</mat-error>
+
+            </mat-form-field>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label class="control-label">Address</label>
+          </td>
+          <td>
+            <mat-form-field class="form-group">
+
+              <textarea matInput name="address" #address="ngModel" placeholder="Address" id="address" [(ngModel)]="employee.address"></textarea>
+            </mat-form-field>
+
+          </td>
+
+          <td>
+            <label class="control-label">Country</label>
+          </td>
+          <td>
+            <mat-form-field>
+
+              <mat-select placeholder="Country" [(ngModel)]="employee.countryId" (ngModelChange)="onCountryChange($event)" required [class.has-error]="countryId.invalid && countryId.touched"
+                #countryId="ngModel" name="countryId">
+
+                <mat-option [value]="null">Please select</mat-option>
+                <mat-option *ngFor="let country of countries" [value]="country.id">
+
+                  {{country.name}}
+
+                </mat-option>
+              </mat-select>
+              <mat-error *ngIf="countryId.invalid && countryId.touched &&  countryId.errors?.required ">Please choose department</mat-error>
+
+            </mat-form-field>
+          </td>
+
+
+        </tr>
+
+
+        <tr>
+          <td><label>State</label> </td>
+
+          <td>
+            <mat-form-field>
+              <mat-select placeholder="State" [(ngModel)]="employee.stateId" (ngModelChange)="onStateChange($event)" required [class.has-error]="stateId.invalid && stateId.touched"
+                #stateId="ngModel" name="stateId">
+
+                <mat-option [value]="null">Please select</mat-option>
+                <mat-option *ngFor="let state of states" [value]="state.id">
+                  {{state.name}}
+                </mat-option>
+              </mat-select>
+              <mat-error *ngIf="stateId.invalid && stateId.touched &&  stateId.errors?.required ">Please choose state</mat-error>
+
+            </mat-form-field>
+          </td>
+          <td>
+            <label class="control-label">City</label>
+          </td>
+
+          <td>
+
+            <mat-form-field>
+
+              <mat-select placeholder="City" [(ngModel)]="employee.cityId" required [class.has-error]="cityId.invalid && cityId.touched"
+                #cityId="ngModel" name="cityId" (ngModelChange)="onCityChange($event)">
+
+                <mat-option [value]="null">Please select</mat-option>
+                <mat-option *ngFor="let city of cities" [value]="city.id">
+
+                  {{city.name}}
+                </mat-option>
+              </mat-select>
+              <mat-error *ngIf="cityId.invalid && cityId.touched &&  cityId.errors?.required ">Please choose city</mat-error>
+
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+
+          <td>
+            <label class="control-label">Postal Code</label>
+          </td>
+          <td>
+            <mat-form-field class="form-group">
+
+              <input matInput #postalCode="ngModel" required maxlength="6" pattern="\d{6}" placeholder="Postal Code" id="postalCode" [(ngModel)]="employee.postalCode"
+                name="postalCode">
+              <mat-hint align="end">
+
+              </mat-hint>
+              <mat-error *ngIf="postalCode.invalid && postalCode.touched &&  postalCode.errors?.pattern ">Please enter digits only </mat-error>
+
+              <mat-error *ngIf="postalCode.invalid && postalCode.touched &&  postalCode.errors?.required ">Please enter pin code</mat-error>
+
+
+            </mat-form-field>
+
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td>
+            <button mat-stroked-button [disabled]="employeeForm.invalid" type="submit">{{bflag?'Save':'Update'}} </button>
+            <button mat-raised-button routerLink="/list" type="button">Back To List </button>
+
+          </td>
+        </tr>
+
+      </table>
+
+
+
+    </form>
+  </mat-card-content>
+
+</mat-card>

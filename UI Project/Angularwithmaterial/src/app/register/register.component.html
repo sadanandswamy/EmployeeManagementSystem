@@ -1,0 +1,59 @@
+<div class="row " style="margin: 5px">
+  <div class="col-sm-3">
+
+  </div>
+  <div class="col-sm-5">
+     
+
+    <div class="card text-center">
+      <div class="card-header text-white bg-success">
+        <h5 class="card-title">Register</h5>
+      </div>
+
+      <form #registerForm="ngForm" (ngSubmit)="RegisterUser(registerModel)">
+        <div class="card-body">
+          <div class="example-container">
+            <mat-form-field class="form-group">
+              <input type="text" matInput placeholder="Email" #userName="ngModel" email required name="userName" id="userName" [(ngModel)]="registerModel.userName">
+              <mat-error *ngIf="userName.hasError('required') && userName.touched">Please Enter Email</mat-error>
+              <mat-error *ngIf="userName.hasError('email')">Please enter valid Email</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="form-group">
+              <input type="password" matInput required name="password" #password="ngModel" placeholder="Enter password" id="password"
+                [(ngModel)]="registerModel.password">
+
+              <mat-error *ngIf="password.hasError('required')&& password.touched">Please Enter Name</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="form-group">
+              <input type="password" matInput required name="confirmPassword" #confirmPassword="ngModel" appConfirmEqualValidator="password"
+                placeholder="confirm  password" id="confirmPassword" [(ngModel)]="registerModel.confirmPassword">
+
+              <mat-error *ngIf="confirmPassword.hasError('required') && confirmPassword.touched">Please Enter Name</mat-error>
+              <mat-error *ngIf="confirmPassword.errors?.notEqual && confirmPassword.touched && !confirmPassword.hasError('required')">
+                Password and confirm password should match</mat-error>
+
+
+            </mat-form-field>
+             
+          </div>
+
+
+
+        </div>
+        <div class="card-footer clearfix  ">
+
+          <button type="submit" class="btn btn-success" [disabled]="registerForm.invalid"  style="float: right"><strong>Resigter</strong></button>
+        </div>
+      </form>
+    </div>
+  </div>
+ 
+  <div *ngIf="bDisplay" [ngClass]="{ 'alert': bDisplay, 'alert-success': message.type === 'success', 'alert-danger': message.type === 'error' }">
+    {{message.text}}</div>
+  <!--Bootstrap alert to display error message if the login fails-->
+  <div id="divError" *ngIf="bDisplay" class="alert alert-danger collapse">
+    <a id="linkClose" href="#" class="close">&times;</a>
+    <div id="divErrorText"></div>
+  </div>
