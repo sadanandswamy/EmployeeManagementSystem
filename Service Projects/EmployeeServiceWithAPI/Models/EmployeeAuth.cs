@@ -21,7 +21,7 @@ namespace EmployeeServiceWithAPI.Models
             if (actionContext.Request.Headers.Authorization == null || actionContext.Request.Headers.Authorization.Parameter == "null")
             {
                 actionContext.Response = actionContext.Request
-                    .CreateResponse(HttpStatusCode.BadRequest,"401");
+                    .CreateResponse(HttpStatusCode.Unauthorized, "you Are Unauthorized ");
             }
             else
             {

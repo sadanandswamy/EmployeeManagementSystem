@@ -119,8 +119,8 @@ namespace EmployeeServiceWithAPI.Controllers
                     }
                     else
                     {
-                    objEmployeeCrudMethods.deleteEmployee(id);
-                        return Request.CreateResponse(HttpStatusCode.OK);
+                     objEmployeeCrudMethods.deleteEmployee(id);
+                        return Request.CreateResponse(HttpStatusCode.OK,"Deleted");
                     }
                 
             }
