@@ -9,6 +9,7 @@ using System.Security.Principal;
 using System.Threading;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using System.Web.Security;
 
 namespace EmployeeServiceWithAPI.Controllers
 {
@@ -33,12 +34,15 @@ namespace EmployeeServiceWithAPI.Controllers
                 if (register.Login(user))
                 {
                     EncryptandDecrypt objencrypt = new EncryptandDecrypt();
-
+                  
                     Thread.CurrentPrincipal = new GenericPrincipal(
                         new GenericIdentity(user.UserName), null);
+                    
 
                     user.user_token = objencrypt.encrypt(user.UserName);
-
+                    
+                        FormsAuthentication.SetAuthCookie(user.UserName,false,"");
+                  
                     var response = Request.CreateResponse<User>(HttpStatusCode.OK, user);
               
                     return response;
