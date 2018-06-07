@@ -1,0 +1,54 @@
+<div class="row " style="margin: 5px">
+    <div class="col-sm-3">
+
+    </div>
+    <div class="col-sm-5">
+
+
+        <div class="card text-center">
+            <div class="card-header text-white bg-success">
+                <h5 class="card-title">Login</h5>
+            </div>
+
+            <form #loginForm="ngForm">
+                <div class="card-body">
+                    <div class="example-container">
+                        <mat-form-field class="form-group">
+                            <input type="text" matInput placeholder="Email" #userName="ngModel" email required name="userName" id="userName" [(ngModel)]="loginModel.userName">
+                            <mat-error *ngIf="userName.hasError('required')">Please Enter Email</mat-error>
+                            <mat-error *ngIf="userName.hasError('email')">Please enter valid Email</mat-error>
+                        </mat-form-field>
+
+                        <mat-form-field class="form-group">
+                            <input type="password" matInput required name="password" #password="ngModel" placeholder="Please Enter password" id="password"
+                                [(ngModel)]="loginModel.password">
+                            <mat-error *ngIf="password.hasError('required')">Please Enter Name</mat-error>
+                        </mat-form-field>
+
+                    </div>
+
+
+
+                </div>
+                <div class="card-footer clearfix  ">
+
+                    <button [disabled]="loginForm.invalid" (click)="login(loginModel)" class="btn btn-success">Login</button>
+                    <img *ngIf="loading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA=="
+                    /> &nbsp;
+                    <a [routerLink]="['/register']" class="btn btn-link">Register</a>
+                    &nbsp; (OR)
+                    <a href="http://google.com">
+                        <img src="https://image.flaticon.com/teams/slug/google.jpg" style="height:40px;width: 40px" alt="">
+                    </a>
+                </div>
+            </form>
+
+        </div>
+        <div class="alert alert-danger alert-dismissible" *ngIf="(statusMessage.length>0)">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> {{statusMessage}}
+        </div>
+    </div>
+
+
+
+    <!--Bootstrap alert to display error message if the login fails-->

@@ -1,0 +1,68 @@
+/* <div *ngIf="employees">
+Filter By :
+<input type="text" [(ngModel)]="searchText" placeholder="By name column">
+<br/>
+<br/>
+<table class="table table-bordered table-hover table-sm">
+  <thead class="blue-grey lighten-4">
+    <tr>
+
+      <th>Name</th>
+      <th>Phone Number</th>
+      <th>Gender</th>
+      <th>Email</th>
+
+      <th> Date Of Birth</th>
+      <th>
+        Department
+      </th>
+      <th> Address</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Country</th>
+      <th> PostalCode</th>
+      <th colspan="3"> Actions</th>
+  </thead>
+  <tbody>
+
+    <!--This message is displayed if the web services does not return any data-->
+    <tr *ngIf="employees && employees.length==0">
+      <td colspan="5">
+        No employee records to display
+      </td>
+    </tr>
+    <tr *ngFor="let employee of filteredEmployees">
+      <td></td>
+      <td>{{employee.name}}</td>
+      <td>{{employee.phoneNumber}}</td>
+      <td>{{employee.gender}}</td>
+      <td>{{employee.email}}</td>
+
+      <td> {{employee.dateOfBirth |date:'dd/MM/yyyy'}}</td>
+      <td>
+        {{employee.departmentName}}
+      </td>
+      <td>{{employee.address}}</td>
+      <td>{{employee.cityName}}</td>
+      <td>{{employee.stateName}}</td>
+      <td>{{employee.countryName}}</td>
+      <td>{{employee.postalCode}}</td>
+      <td class="btn-group" role="group" aria-label="Basic example">
+
+
+        <button type="button" class="btn btn-outline-primary btn-sm" [routerLink]="['/update',employee.id]">Edit</button>
+
+        <button type="button" class="btn btn-outline-danger btn-sm" (click)="DeleteEmployee(employee)">Delete</button>
+
+
+      </td>
+      <td>
+
+
+
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+</div> */

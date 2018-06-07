@@ -1,0 +1,48 @@
+<table *ngIf="employee" class="table table-bordered">
+  <tbody>
+  <tr>
+    <td>
+      Name
+    </td>
+    <td>
+      {{employee.name}}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Gender
+    </td>
+    <td>
+      {{employee.gender}}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Department
+    </td>
+    <td>
+      {{employee.departmentName}}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Date Of Birth
+    </td>
+    <td> {{employee.dateOfBirth |date:'dd/MM/yyyy'}}</td>
+  </tr>
+  <tr>
+    <td>
+      Email
+    </td>
+    <td>
+      {{employee.email}}
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"
+    >
+  <a [routerLink]="['/list']" style="float: right" class="btn btn-link">Back to list </a>
+  </td>
+  </tr>
+</tbody>
+</table>

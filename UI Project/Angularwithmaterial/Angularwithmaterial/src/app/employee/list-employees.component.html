@@ -1,0 +1,114 @@
+<div class="card" style="margin-top:5px ">
+
+  <div class="card-header deep-orange   white-text">
+    List employees
+
+
+  </div>
+  <div class="card-body table-responsive">
+    <h3 *ngIf="!employees" class="alert alert-danger" [class]="clscolor">
+
+      {{statusMessage}}
+
+    </h3>
+    <div *ngIf="employees">
+      <mat-form-field style="font-size: 14px">
+
+        <input matInput (keyup)="applyFilter($event.target.value)" [(ngModel)]="searchText" placeholder="Filter">
+      </mat-form-field>
+
+      <table class="table table-hover"  mat-table [dataSource]="dataSource"  matSort  class="mat-elevation-z8" style="width: 100%">
+
+        <ng-container matColumnDef="id">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> Id </th>
+          <td mat-cell *matCellDef="let element" style="font-weight: bold " (click)="onEmployeeClick(element.id)"> {{element.id}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef   mat-sort-header> Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="gender">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> Gender </th>
+          <td mat-cell *matCellDef="let element"> {{element.gender}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="email">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> Email </th>
+          <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="phoneNumber">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> Phone Number </th>
+          <td mat-cell *matCellDef="let element"> {{element.phoneNumber}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="dateOfBirth">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> Date Of Birth </th>
+          <td mat-cell *matCellDef="let element"> {{element.dateOfBirth | date:'dd/MM/yyyy'}} </td>
+        </ng-container>
+
+
+
+        <ng-container matColumnDef="departmentName">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> Department Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.departmentName}} </td>
+        </ng-container>
+
+
+
+        <ng-container matColumnDef="address">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> Address </th>
+          <td mat-cell *matCellDef="let element"> {{element.address}} </td>
+        </ng-container>
+
+
+
+        <ng-container matColumnDef="cityName">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> City </th>
+          <td mat-cell *matCellDef="let element"> {{element.cityName}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="stateName">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> state </th>
+          <td mat-cell *matCellDef="let element"> {{element.stateName}} </td>
+        </ng-container>
+
+
+
+        <ng-container matColumnDef="countryName"  mat-sort-header>
+          <th mat-header-cell *matHeaderCellDef> country </th>
+          <td mat-cell *matCellDef="let element"> {{element.countryName}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="postalCode"  mat-sort-header>
+          <th mat-header-cell *matHeaderCellDef> Postal Code </th>
+          <td mat-cell *matCellDef="let element"> {{element.postalCode}} </td>
+        </ng-container>
+
+
+
+        <ng-container matColumnDef="actions">
+          <th mat-header-cell *matHeaderCellDef > Actions </th>
+          <td mat-cell *matCellDef="let element">
+            <button type="button" class="btn btn-outline-primary btn-sm" [routerLink]="['/update',element.id]">Edit</button>
+
+            <button type="button" class="btn btn-outline-danger btn-sm" (click)="DeleteEmployee(element)">Delete</button>
+
+          </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+
+
+
+
+    </div>
+  </div>
+</div>

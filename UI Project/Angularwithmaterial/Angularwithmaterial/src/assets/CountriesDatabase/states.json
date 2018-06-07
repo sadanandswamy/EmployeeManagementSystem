@@ -1,0 +1,2815 @@
+{
+  "states": [
+    {
+      "id": "1",
+      "name": "Andaman and Nicobar Islands",
+      "country_id": "101"
+    },
+    {
+      "id": "2",
+      "name": "Andhra Pradesh",
+      "country_id": "101"
+    },
+    {
+      "id": "3",
+      "name": "Arunachal Pradesh",
+      "country_id": "101"
+    },
+    {
+      "id": "4",
+      "name": "Assam",
+      "country_id": "101"
+    },
+    {
+      "id": "5",
+      "name": "Bihar",
+      "country_id": "101"
+    },
+    {
+      "id": "6",
+      "name": "Chandigarh",
+      "country_id": "101"
+    },
+    {
+      "id": "7",
+      "name": "Chhattisgarh",
+      "country_id": "101"
+    },
+    {
+      "id": "8",
+      "name": "Dadra and Nagar Haveli",
+      "country_id": "101"
+    },
+    {
+      "id": "9",
+      "name": "Daman and Diu",
+      "country_id": "101"
+    },
+    {
+      "id": "10",
+      "name": "Delhi",
+      "country_id": "101"
+    },
+    {
+      "id": "11",
+      "name": "Goa",
+      "country_id": "101"
+    },
+    {
+      "id": "12",
+      "name": "Gujarat",
+      "country_id": "101"
+    },
+    {
+      "id": "13",
+      "name": "Haryana",
+      "country_id": "101"
+    },
+    {
+      "id": "14",
+      "name": "Himachal Pradesh",
+      "country_id": "101"
+    },
+    {
+      "id": "15",
+      "name": "Jammu and Kashmir",
+      "country_id": "101"
+    },
+    {
+      "id": "16",
+      "name": "Jharkhand",
+      "country_id": "101"
+    },
+    {
+      "id": "17",
+      "name": "Karnataka",
+      "country_id": "101"
+    },
+    {
+      "id": "18",
+      "name": "Kenmore",
+      "country_id": "101"
+    },
+    {
+      "id": "19",
+      "name": "Kerala",
+      "country_id": "101"
+    },
+    {
+      "id": "20",
+      "name": "Lakshadweep",
+      "country_id": "101"
+    },
+    {
+      "id": "21",
+      "name": "Madhya Pradesh",
+      "country_id": "101"
+    },
+    {
+      "id": "22",
+      "name": "Maharashtra",
+      "country_id": "101"
+    },
+    {
+      "id": "23",
+      "name": "Manipur",
+      "country_id": "101"
+    },
+    {
+      "id": "24",
+      "name": "Meghalaya",
+      "country_id": "101"
+    },
+    {
+      "id": "25",
+      "name": "Mizoram",
+      "country_id": "101"
+    },
+    {
+      "id": "26",
+      "name": "Nagaland",
+      "country_id": "101"
+    },
+    {
+      "id": "27",
+      "name": "Narora",
+      "country_id": "101"
+    },
+    {
+      "id": "28",
+      "name": "Natwar",
+      "country_id": "101"
+    },
+    {
+      "id": "29",
+      "name": "Odisha",
+      "country_id": "101"
+    },
+    {
+      "id": "30",
+      "name": "Paschim Medinipur",
+      "country_id": "101"
+    },
+    {
+      "id": "31",
+      "name": "Pondicherry",
+      "country_id": "101"
+    },
+    {
+      "id": "32",
+      "name": "Punjab",
+      "country_id": "101"
+    },
+    {
+      "id": "33",
+      "name": "Rajasthan",
+      "country_id": "101"
+    },
+    {
+      "id": "34",
+      "name": "Sikkim",
+      "country_id": "101"
+    },
+    {
+      "id": "35",
+      "name": "Tamil Nadu",
+      "country_id": "101"
+    },
+    {
+      "id": "36",
+      "name": "Telangana",
+      "country_id": "101"
+    },
+    {
+      "id": "37",
+      "name": "Tripura",
+      "country_id": "101"
+    },
+    {
+      "id": "38",
+      "name": "Uttar Pradesh",
+      "country_id": "101"
+    },
+    {
+      "id": "39",
+      "name": "Uttarakhand",
+      "country_id": "101"
+    },
+    {
+      "id": "40",
+      "name": "Vaishali",
+      "country_id": "101"
+    },
+    {
+      "id": "41",
+      "name": "West Bengal",
+      "country_id": "101"
+    },
+    {
+      "id": "42",
+      "name": "Badakhshan",
+      "country_id": "1"
+    },
+    {
+      "id": "43",
+      "name": "Badgis",
+      "country_id": "1"
+    },
+    {
+      "id": "44",
+      "name": "Baglan",
+      "country_id": "1"
+    },
+    {
+      "id": "45",
+      "name": "Balkh",
+      "country_id": "1"
+    },
+    {
+      "id": "46",
+      "name": "Bamiyan",
+      "country_id": "1"
+    },
+    {
+      "id": "47",
+      "name": "Farah",
+      "country_id": "1"
+    },
+    {
+      "id": "48",
+      "name": "Faryab",
+      "country_id": "1"
+    },
+    {
+      "id": "49",
+      "name": "Gawr",
+      "country_id": "1"
+    },
+    {
+      "id": "50",
+      "name": "Gazni",
+      "country_id": "1"
+    },
+    {
+      "id": "51",
+      "name": "Herat",
+      "country_id": "1"
+    },
+    {
+      "id": "52",
+      "name": "Hilmand",
+      "country_id": "1"
+    },
+    {
+      "id": "53",
+      "name": "Jawzjan",
+      "country_id": "1"
+    },
+    {
+      "id": "54",
+      "name": "Kabul",
+      "country_id": "1"
+    },
+    {
+      "id": "55",
+      "name": "Kapisa",
+      "country_id": "1"
+    },
+    {
+      "id": "56",
+      "name": "Khawst",
+      "country_id": "1"
+    },
+    {
+      "id": "57",
+      "name": "Kunar",
+      "country_id": "1"
+    },
+    {
+      "id": "58",
+      "name": "Lagman",
+      "country_id": "1"
+    },
+    {
+      "id": "59",
+      "name": "Lawghar",
+      "country_id": "1"
+    },
+    {
+      "id": "60",
+      "name": "Nangarhar",
+      "country_id": "1"
+    },
+    {
+      "id": "61",
+      "name": "Nimruz",
+      "country_id": "1"
+    },
+    {
+      "id": "62",
+      "name": "Nuristan",
+      "country_id": "1"
+    },
+    {
+      "id": "63",
+      "name": "Paktika",
+      "country_id": "1"
+    },
+    {
+      "id": "64",
+      "name": "Paktiya",
+      "country_id": "1"
+    },
+    {
+      "id": "65",
+      "name": "Parwan",
+      "country_id": "1"
+    },
+    {
+      "id": "66",
+      "name": "Qandahar",
+      "country_id": "1"
+    },
+    {
+      "id": "67",
+      "name": "Qunduz",
+      "country_id": "1"
+    },
+    {
+      "id": "68",
+      "name": "Samangan",
+      "country_id": "1"
+    },
+    {
+      "id": "69",
+      "name": "Sar-e Pul",
+      "country_id": "1"
+    },
+    {
+      "id": "70",
+      "name": "Takhar",
+      "country_id": "1"
+    },
+    {
+      "id": "71",
+      "name": "Uruzgan",
+      "country_id": "1"
+    },
+    {
+      "id": "72",
+      "name": "Wardag",
+      "country_id": "1"
+    },
+    {
+      "id": "73",
+      "name": "Zabul",
+      "country_id": "1"
+    },
+    {
+      "id": "74",
+      "name": "Berat",
+      "country_id": "2"
+    },
+    {
+      "id": "75",
+      "name": "Bulqize",
+      "country_id": "2"
+    },
+    {
+      "id": "76",
+      "name": "Delvine",
+      "country_id": "2"
+    },
+    {
+      "id": "77",
+      "name": "Devoll",
+      "country_id": "2"
+    },
+    {
+      "id": "78",
+      "name": "Dibre",
+      "country_id": "2"
+    },
+    {
+      "id": "79",
+      "name": "Durres",
+      "country_id": "2"
+    },
+    {
+      "id": "80",
+      "name": "Elbasan",
+      "country_id": "2"
+    },
+    {
+      "id": "81",
+      "name": "Fier",
+      "country_id": "2"
+    },
+    {
+      "id": "82",
+      "name": "Gjirokaster",
+      "country_id": "2"
+    },
+    {
+      "id": "83",
+      "name": "Gramsh",
+      "country_id": "2"
+    },
+    {
+      "id": "84",
+      "name": "Has",
+      "country_id": "2"
+    },
+    {
+      "id": "85",
+      "name": "Kavaje",
+      "country_id": "2"
+    },
+    {
+      "id": "86",
+      "name": "Kolonje",
+      "country_id": "2"
+    },
+    {
+      "id": "87",
+      "name": "Korce",
+      "country_id": "2"
+    },
+    {
+      "id": "88",
+      "name": "Kruje",
+      "country_id": "2"
+    },
+    {
+      "id": "89",
+      "name": "Kucove",
+      "country_id": "2"
+    },
+    {
+      "id": "90",
+      "name": "Kukes",
+      "country_id": "2"
+    },
+    {
+      "id": "91",
+      "name": "Kurbin",
+      "country_id": "2"
+    },
+    {
+      "id": "92",
+      "name": "Lezhe",
+      "country_id": "2"
+    },
+    {
+      "id": "93",
+      "name": "Librazhd",
+      "country_id": "2"
+    },
+    {
+      "id": "94",
+      "name": "Lushnje",
+      "country_id": "2"
+    },
+    {
+      "id": "95",
+      "name": "Mallakaster",
+      "country_id": "2"
+    },
+    {
+      "id": "96",
+      "name": "Malsi e Madhe",
+      "country_id": "2"
+    },
+    {
+      "id": "97",
+      "name": "Mat",
+      "country_id": "2"
+    },
+    {
+      "id": "98",
+      "name": "Mirdite",
+      "country_id": "2"
+    },
+    {
+      "id": "99",
+      "name": "Peqin",
+      "country_id": "2"
+    },
+    {
+      "id": "100",
+      "name": "Permet",
+      "country_id": "2"
+    },
+    {
+      "id": "101",
+      "name": "Pogradec",
+      "country_id": "2"
+    },
+    {
+      "id": "102",
+      "name": "Puke",
+      "country_id": "2"
+    },
+    {
+      "id": "103",
+      "name": "Sarande",
+      "country_id": "2"
+    },
+    {
+      "id": "104",
+      "name": "Shkoder",
+      "country_id": "2"
+    },
+    {
+      "id": "105",
+      "name": "Skrapar",
+      "country_id": "2"
+    },
+    {
+      "id": "106",
+      "name": "Tepelene",
+      "country_id": "2"
+    },
+    {
+      "id": "107",
+      "name": "Tirane",
+      "country_id": "2"
+    },
+    {
+      "id": "108",
+      "name": "Tropoje",
+      "country_id": "2"
+    },
+    {
+      "id": "109",
+      "name": "Vlore",
+      "country_id": "2"
+    },
+    {
+      "id": "110",
+      "name": "Ayn Daflah",
+      "country_id": "3"
+    },
+    {
+      "id": "111",
+      "name": "Ayn Tamushanat",
+      "country_id": "3"
+    },
+    {
+      "id": "112",
+      "name": "Adrar",
+      "country_id": "3"
+    },
+    {
+      "id": "113",
+      "name": "Algiers",
+      "country_id": "3"
+    },
+    {
+      "id": "114",
+      "name": "Annabah",
+      "country_id": "3"
+    },
+    {
+      "id": "115",
+      "name": "Bashshar",
+      "country_id": "3"
+    },
+    {
+      "id": "116",
+      "name": "Batnah",
+      "country_id": "3"
+    },
+    {
+      "id": "117",
+      "name": "Bijayah",
+      "country_id": "3"
+    },
+    {
+      "id": "118",
+      "name": "Biskrah",
+      "country_id": "3"
+    },
+    {
+      "id": "119",
+      "name": "Blidah",
+      "country_id": "3"
+    },
+    {
+      "id": "120",
+      "name": "Buirah",
+      "country_id": "3"
+    },
+    {
+      "id": "121",
+      "name": "Bumardas",
+      "country_id": "3"
+    },
+    {
+      "id": "122",
+      "name": "Burj Bu Arririj",
+      "country_id": "3"
+    },
+    {
+      "id": "123",
+      "name": "Ghalizan",
+      "country_id": "3"
+    },
+    {
+      "id": "124",
+      "name": "Ghardayah",
+      "country_id": "3"
+    },
+    {
+      "id": "125",
+      "name": "Ilizi",
+      "country_id": "3"
+    },
+    {
+      "id": "126",
+      "name": "Jijili",
+      "country_id": "3"
+    },
+    {
+      "id": "127",
+      "name": "Jilfah",
+      "country_id": "3"
+    },
+    {
+      "id": "128",
+      "name": "Khanshalah",
+      "country_id": "3"
+    },
+    {
+      "id": "129",
+      "name": "Masilah",
+      "country_id": "3"
+    },
+    {
+      "id": "130",
+      "name": "Midyah",
+      "country_id": "3"
+    },
+    {
+      "id": "131",
+      "name": "Milah",
+      "country_id": "3"
+    },
+    {
+      "id": "132",
+      "name": "Muaskar",
+      "country_id": "3"
+    },
+    {
+      "id": "133",
+      "name": "Mustaghanam",
+      "country_id": "3"
+    },
+    {
+      "id": "134",
+      "name": "Naama",
+      "country_id": "3"
+    },
+    {
+      "id": "135",
+      "name": "Oran",
+      "country_id": "3"
+    },
+    {
+      "id": "136",
+      "name": "Ouargla",
+      "country_id": "3"
+    },
+    {
+      "id": "137",
+      "name": "Qalmah",
+      "country_id": "3"
+    },
+    {
+      "id": "138",
+      "name": "Qustantinah",
+      "country_id": "3"
+    },
+    {
+      "id": "139",
+      "name": "Sakikdah",
+      "country_id": "3"
+    },
+    {
+      "id": "140",
+      "name": "Satif",
+      "country_id": "3"
+    },
+    {
+      "id": "141",
+      "name": "Sayda",
+      "country_id": "3"
+    },
+    {
+      "id": "142",
+      "name": "Sidi ban-al-''Abbas",
+      "country_id": "3"
+    },
+    {
+      "id": "143",
+      "name": "Suq Ahras",
+      "country_id": "3"
+    },
+    {
+      "id": "144",
+      "name": "Tamanghasat",
+      "country_id": "3"
+    },
+    {
+      "id": "145",
+      "name": "Tibazah",
+      "country_id": "3"
+    },
+    {
+      "id": "146",
+      "name": "Tibissah",
+      "country_id": "3"
+    },
+    {
+      "id": "147",
+      "name": "Tilimsan",
+      "country_id": "3"
+    },
+    {
+      "id": "148",
+      "name": "Tinduf",
+      "country_id": "3"
+    },
+    {
+      "id": "149",
+      "name": "Tisamsilt",
+      "country_id": "3"
+    },
+    {
+      "id": "150",
+      "name": "Tiyarat",
+      "country_id": "3"
+    },
+    {
+      "id": "151",
+      "name": "Tizi Wazu",
+      "country_id": "3"
+    },
+    {
+      "id": "152",
+      "name": "Umm-al-Bawaghi",
+      "country_id": "3"
+    },
+    {
+      "id": "153",
+      "name": "Wahran",
+      "country_id": "3"
+    },
+    {
+      "id": "154",
+      "name": "Warqla",
+      "country_id": "3"
+    },
+    {
+      "id": "155",
+      "name": "Wilaya d Alger",
+      "country_id": "3"
+    },
+    {
+      "id": "156",
+      "name": "Wilaya de Bejaia",
+      "country_id": "3"
+    },
+    {
+      "id": "157",
+      "name": "Wilaya de Constantine",
+      "country_id": "3"
+    },
+    {
+      "id": "158",
+      "name": "al-Aghwat",
+      "country_id": "3"
+    },
+    {
+      "id": "159",
+      "name": "al-Bayadh",
+      "country_id": "3"
+    },
+    {
+      "id": "160",
+      "name": "al-Jaza''ir",
+      "country_id": "3"
+    },
+    {
+      "id": "161",
+      "name": "al-Wad",
+      "country_id": "3"
+    },
+    {
+      "id": "162",
+      "name": "ash-Shalif",
+      "country_id": "3"
+    },
+    {
+      "id": "163",
+      "name": "at-Tarif",
+      "country_id": "3"
+    },
+    {
+      "id": "164",
+      "name": "Eastern",
+      "country_id": "4"
+    },
+    {
+      "id": "165",
+      "name": "Manu''a",
+      "country_id": "4"
+    },
+    {
+      "id": "166",
+      "name": "Swains Island",
+      "country_id": "4"
+    },
+    {
+      "id": "167",
+      "name": "Western",
+      "country_id": "4"
+    },
+    {
+      "id": "168",
+      "name": "Andorra la Vella",
+      "country_id": "5"
+    },
+    {
+      "id": "169",
+      "name": "Canillo",
+      "country_id": "5"
+    },
+    {
+      "id": "170",
+      "name": "Encamp",
+      "country_id": "5"
+    },
+    {
+      "id": "171",
+      "name": "La Massana",
+      "country_id": "5"
+    },
+    {
+      "id": "172",
+      "name": "Les Escaldes",
+      "country_id": "5"
+    },
+    {
+      "id": "173",
+      "name": "Ordino",
+      "country_id": "5"
+    },
+    {
+      "id": "174",
+      "name": "Sant Julia de Loria",
+      "country_id": "5"
+    },
+    {
+      "id": "175",
+      "name": "Bengo",
+      "country_id": "6"
+    },
+    {
+      "id": "176",
+      "name": "Benguela",
+      "country_id": "6"
+    },
+    {
+      "id": "177",
+      "name": "Bie",
+      "country_id": "6"
+    },
+    {
+      "id": "178",
+      "name": "Cabinda",
+      "country_id": "6"
+    },
+    {
+      "id": "179",
+      "name": "Cunene",
+      "country_id": "6"
+    },
+    {
+      "id": "180",
+      "name": "Huambo",
+      "country_id": "6"
+    },
+    {
+      "id": "181",
+      "name": "Huila",
+      "country_id": "6"
+    },
+    {
+      "id": "182",
+      "name": "Kuando-Kubango",
+      "country_id": "6"
+    },
+    {
+      "id": "183",
+      "name": "Kwanza Norte",
+      "country_id": "6"
+    },
+    {
+      "id": "184",
+      "name": "Kwanza Sul",
+      "country_id": "6"
+    },
+    {
+      "id": "185",
+      "name": "Luanda",
+      "country_id": "6"
+    },
+    {
+      "id": "186",
+      "name": "Lunda Norte",
+      "country_id": "6"
+    },
+    {
+      "id": "187",
+      "name": "Lunda Sul",
+      "country_id": "6"
+    },
+    {
+      "id": "188",
+      "name": "Malanje",
+      "country_id": "6"
+    },
+    {
+      "id": "189",
+      "name": "Moxico",
+      "country_id": "6"
+    },
+    {
+      "id": "190",
+      "name": "Namibe",
+      "country_id": "6"
+    },
+    {
+      "id": "191",
+      "name": "Uige",
+      "country_id": "6"
+    },
+    {
+      "id": "192",
+      "name": "Zaire",
+      "country_id": "6"
+    },
+    {
+      "id": "193",
+      "name": "Other Provinces",
+      "country_id": "7"
+    },
+    {
+      "id": "194",
+      "name": "Sector claimed by Argentina/Ch",
+      "country_id": "8"
+    },
+    {
+      "id": "195",
+      "name": "Sector claimed by Argentina/UK",
+      "country_id": "8"
+    },
+    {
+      "id": "196",
+      "name": "Sector claimed by Australia",
+      "country_id": "8"
+    },
+    {
+      "id": "197",
+      "name": "Sector claimed by France",
+      "country_id": "8"
+    },
+    {
+      "id": "198",
+      "name": "Sector claimed by New Zealand",
+      "country_id": "8"
+    },
+    {
+      "id": "199",
+      "name": "Sector claimed by Norway",
+      "country_id": "8"
+    },
+    {
+      "id": "200",
+      "name": "Unclaimed Sector",
+      "country_id": "8"
+    },
+    {
+      "id": "201",
+      "name": "Barbuda",
+      "country_id": "9"
+    },
+    {
+      "id": "202",
+      "name": "Saint George",
+      "country_id": "9"
+    },
+    {
+      "id": "203",
+      "name": "Saint John",
+      "country_id": "9"
+    },
+    {
+      "id": "204",
+      "name": "Saint Mary",
+      "country_id": "9"
+    },
+    {
+      "id": "205",
+      "name": "Saint Paul",
+      "country_id": "9"
+    },
+    {
+      "id": "206",
+      "name": "Saint Peter",
+      "country_id": "9"
+    },
+    {
+      "id": "207",
+      "name": "Saint Philip",
+      "country_id": "9"
+    },
+    {
+      "id": "208",
+      "name": "Buenos Aires",
+      "country_id": "10"
+    },
+    {
+      "id": "209",
+      "name": "Catamarca",
+      "country_id": "10"
+    },
+    {
+      "id": "210",
+      "name": "Chaco",
+      "country_id": "10"
+    },
+    {
+      "id": "211",
+      "name": "Chubut",
+      "country_id": "10"
+    },
+    {
+      "id": "212",
+      "name": "Cordoba",
+      "country_id": "10"
+    },
+    {
+      "id": "213",
+      "name": "Corrientes",
+      "country_id": "10"
+    },
+    {
+      "id": "214",
+      "name": "Distrito Federal",
+      "country_id": "10"
+    },
+    {
+      "id": "215",
+      "name": "Entre Rios",
+      "country_id": "10"
+    },
+    {
+      "id": "216",
+      "name": "Formosa",
+      "country_id": "10"
+    },
+    {
+      "id": "217",
+      "name": "Jujuy",
+      "country_id": "10"
+    },
+    {
+      "id": "218",
+      "name": "La Pampa",
+      "country_id": "10"
+    },
+    {
+      "id": "219",
+      "name": "La Rioja",
+      "country_id": "10"
+    },
+    {
+      "id": "220",
+      "name": "Mendoza",
+      "country_id": "10"
+    },
+    {
+      "id": "221",
+      "name": "Misiones",
+      "country_id": "10"
+    },
+    {
+      "id": "222",
+      "name": "Neuquen",
+      "country_id": "10"
+    },
+    {
+      "id": "223",
+      "name": "Rio Negro",
+      "country_id": "10"
+    },
+    {
+      "id": "224",
+      "name": "Salta",
+      "country_id": "10"
+    },
+    {
+      "id": "225",
+      "name": "San Juan",
+      "country_id": "10"
+    },
+    {
+      "id": "226",
+      "name": "San Luis",
+      "country_id": "10"
+    },
+    {
+      "id": "227",
+      "name": "Santa Cruz",
+      "country_id": "10"
+    },
+    {
+      "id": "228",
+      "name": "Santa Fe",
+      "country_id": "10"
+    },
+    {
+      "id": "229",
+      "name": "Santiago del Estero",
+      "country_id": "10"
+    },
+    {
+      "id": "230",
+      "name": "Tierra del Fuego",
+      "country_id": "10"
+    },
+    {
+      "id": "231",
+      "name": "Tucuman",
+      "country_id": "10"
+    },
+    {
+      "id": "232",
+      "name": "Aragatsotn",
+      "country_id": "11"
+    },
+    {
+      "id": "233",
+      "name": "Ararat",
+      "country_id": "11"
+    },
+    {
+      "id": "234",
+      "name": "Armavir",
+      "country_id": "11"
+    },
+    {
+      "id": "235",
+      "name": "Gegharkunik",
+      "country_id": "11"
+    },
+    {
+      "id": "236",
+      "name": "Kotaik",
+      "country_id": "11"
+    },
+    {
+      "id": "237",
+      "name": "Lori",
+      "country_id": "11"
+    },
+    {
+      "id": "238",
+      "name": "Shirak",
+      "country_id": "11"
+    },
+    {
+      "id": "239",
+      "name": "Stepanakert",
+      "country_id": "11"
+    },
+    {
+      "id": "240",
+      "name": "Syunik",
+      "country_id": "11"
+    },
+    {
+      "id": "241",
+      "name": "Tavush",
+      "country_id": "11"
+    },
+    {
+      "id": "242",
+      "name": "Vayots Dzor",
+      "country_id": "11"
+    },
+    {
+      "id": "243",
+      "name": "Yerevan",
+      "country_id": "11"
+    },
+    {
+      "id": "244",
+      "name": "Aruba",
+      "country_id": "12"
+    },
+    {
+      "id": "245",
+      "name": "Auckland",
+      "country_id": "13"
+    },
+    {
+      "id": "246",
+      "name": "Australian Capital Territory",
+      "country_id": "13"
+    },
+    {
+      "id": "247",
+      "name": "Balgowlah",
+      "country_id": "13"
+    },
+    {
+      "id": "248",
+      "name": "Balmain",
+      "country_id": "13"
+    },
+    {
+      "id": "249",
+      "name": "Bankstown",
+      "country_id": "13"
+    },
+    {
+      "id": "250",
+      "name": "Baulkham Hills",
+      "country_id": "13"
+    },
+    {
+      "id": "251",
+      "name": "Bonnet Bay",
+      "country_id": "13"
+    },
+    {
+      "id": "252",
+      "name": "Camberwell",
+      "country_id": "13"
+    },
+    {
+      "id": "253",
+      "name": "Carole Park",
+      "country_id": "13"
+    },
+    {
+      "id": "254",
+      "name": "Castle Hill",
+      "country_id": "13"
+    },
+    {
+      "id": "255",
+      "name": "Caulfield",
+      "country_id": "13"
+    },
+    {
+      "id": "256",
+      "name": "Chatswood",
+      "country_id": "13"
+    },
+    {
+      "id": "257",
+      "name": "Cheltenham",
+      "country_id": "13"
+    },
+    {
+      "id": "258",
+      "name": "Cherrybrook",
+      "country_id": "13"
+    },
+    {
+      "id": "259",
+      "name": "Clayton",
+      "country_id": "13"
+    },
+    {
+      "id": "260",
+      "name": "Collingwood",
+      "country_id": "13"
+    },
+    {
+      "id": "261",
+      "name": "Frenchs Forest",
+      "country_id": "13"
+    },
+    {
+      "id": "262",
+      "name": "Hawthorn",
+      "country_id": "13"
+    },
+    {
+      "id": "263",
+      "name": "Jannnali",
+      "country_id": "13"
+    },
+    {
+      "id": "264",
+      "name": "Knoxfield",
+      "country_id": "13"
+    },
+    {
+      "id": "265",
+      "name": "Melbourne",
+      "country_id": "13"
+    },
+    {
+      "id": "266",
+      "name": "New South Wales",
+      "country_id": "13"
+    },
+    {
+      "id": "267",
+      "name": "Northern Territory",
+      "country_id": "13"
+    },
+    {
+      "id": "268",
+      "name": "Perth",
+      "country_id": "13"
+    },
+    {
+      "id": "269",
+      "name": "Queensland",
+      "country_id": "13"
+    },
+    {
+      "id": "270",
+      "name": "South Australia",
+      "country_id": "13"
+    },
+    {
+      "id": "271",
+      "name": "Tasmania",
+      "country_id": "13"
+    },
+    {
+      "id": "272",
+      "name": "Templestowe",
+      "country_id": "13"
+    },
+    {
+      "id": "273",
+      "name": "Victoria",
+      "country_id": "13"
+    },
+    {
+      "id": "274",
+      "name": "Werribee south",
+      "country_id": "13"
+    },
+    {
+      "id": "275",
+      "name": "Western Australia",
+      "country_id": "13"
+    },
+    {
+      "id": "276",
+      "name": "Wheeler",
+      "country_id": "13"
+    },
+    {
+      "id": "277",
+      "name": "Bundesland Salzburg",
+      "country_id": "14"
+    },
+    {
+      "id": "278",
+      "name": "Bundesland Steiermark",
+      "country_id": "14"
+    },
+    {
+      "id": "279",
+      "name": "Bundesland Tirol",
+      "country_id": "14"
+    },
+    {
+      "id": "280",
+      "name": "Burgenland",
+      "country_id": "14"
+    },
+    {
+      "id": "281",
+      "name": "Carinthia",
+      "country_id": "14"
+    },
+    {
+      "id": "282",
+      "name": "Karnten",
+      "country_id": "14"
+    },
+    {
+      "id": "283",
+      "name": "Liezen",
+      "country_id": "14"
+    },
+    {
+      "id": "284",
+      "name": "Lower Austria",
+      "country_id": "14"
+    },
+    {
+      "id": "285",
+      "name": "Niederosterreich",
+      "country_id": "14"
+    },
+    {
+      "id": "286",
+      "name": "Oberosterreich",
+      "country_id": "14"
+    },
+    {
+      "id": "287",
+      "name": "Salzburg",
+      "country_id": "14"
+    },
+    {
+      "id": "288",
+      "name": "Schleswig-Holstein",
+      "country_id": "14"
+    },
+    {
+      "id": "289",
+      "name": "Steiermark",
+      "country_id": "14"
+    },
+    {
+      "id": "290",
+      "name": "Styria",
+      "country_id": "14"
+    },
+    {
+      "id": "291",
+      "name": "Tirol",
+      "country_id": "14"
+    },
+    {
+      "id": "292",
+      "name": "Upper Austria",
+      "country_id": "14"
+    },
+    {
+      "id": "293",
+      "name": "Vorarlberg",
+      "country_id": "14"
+    },
+    {
+      "id": "294",
+      "name": "Wien",
+      "country_id": "14"
+    },
+    {
+      "id": "295",
+      "name": "Abseron",
+      "country_id": "15"
+    },
+    {
+      "id": "296",
+      "name": "Baki Sahari",
+      "country_id": "15"
+    },
+    {
+      "id": "297",
+      "name": "Ganca",
+      "country_id": "15"
+    },
+    {
+      "id": "298",
+      "name": "Ganja",
+      "country_id": "15"
+    },
+    {
+      "id": "299",
+      "name": "Kalbacar",
+      "country_id": "15"
+    },
+    {
+      "id": "300",
+      "name": "Lankaran",
+      "country_id": "15"
+    },
+    {
+      "id": "301",
+      "name": "Mil-Qarabax",
+      "country_id": "15"
+    },
+    {
+      "id": "302",
+      "name": "Mugan-Salyan",
+      "country_id": "15"
+    },
+    {
+      "id": "303",
+      "name": "Nagorni-Qarabax",
+      "country_id": "15"
+    },
+    {
+      "id": "304",
+      "name": "Naxcivan",
+      "country_id": "15"
+    },
+    {
+      "id": "305",
+      "name": "Priaraks",
+      "country_id": "15"
+    },
+    {
+      "id": "306",
+      "name": "Qazax",
+      "country_id": "15"
+    },
+    {
+      "id": "307",
+      "name": "Saki",
+      "country_id": "15"
+    },
+    {
+      "id": "308",
+      "name": "Sirvan",
+      "country_id": "15"
+    },
+    {
+      "id": "309",
+      "name": "Xacmaz",
+      "country_id": "15"
+    },
+    {
+      "id": "310",
+      "name": "Abaco",
+      "country_id": "16"
+    },
+    {
+      "id": "311",
+      "name": "Acklins Island",
+      "country_id": "16"
+    },
+    {
+      "id": "312",
+      "name": "Andros",
+      "country_id": "16"
+    },
+    {
+      "id": "313",
+      "name": "Berry Islands",
+      "country_id": "16"
+    },
+    {
+      "id": "314",
+      "name": "Biminis",
+      "country_id": "16"
+    },
+    {
+      "id": "315",
+      "name": "Cat Island",
+      "country_id": "16"
+    },
+    {
+      "id": "316",
+      "name": "Crooked Island",
+      "country_id": "16"
+    },
+    {
+      "id": "317",
+      "name": "Eleuthera",
+      "country_id": "16"
+    },
+    {
+      "id": "318",
+      "name": "Exuma and Cays",
+      "country_id": "16"
+    },
+    {
+      "id": "319",
+      "name": "Grand Bahama",
+      "country_id": "16"
+    },
+    {
+      "id": "320",
+      "name": "Inagua Islands",
+      "country_id": "16"
+    },
+    {
+      "id": "321",
+      "name": "Long Island",
+      "country_id": "16"
+    },
+    {
+      "id": "322",
+      "name": "Mayaguana",
+      "country_id": "16"
+    },
+    {
+      "id": "323",
+      "name": "New Providence",
+      "country_id": "16"
+    },
+    {
+      "id": "324",
+      "name": "Ragged Island",
+      "country_id": "16"
+    },
+    {
+      "id": "325",
+      "name": "Rum Cay",
+      "country_id": "16"
+    },
+    {
+      "id": "326",
+      "name": "San Salvador",
+      "country_id": "16"
+    },
+    {
+      "id": "327",
+      "name": "Isa",
+      "country_id": "17"
+    },
+    {
+      "id": "328",
+      "name": "Badiyah",
+      "country_id": "17"
+    },
+    {
+      "id": "329",
+      "name": "Hidd",
+      "country_id": "17"
+    },
+    {
+      "id": "330",
+      "name": "Jidd Hafs",
+      "country_id": "17"
+    },
+    {
+      "id": "331",
+      "name": "Mahama",
+      "country_id": "17"
+    },
+    {
+      "id": "332",
+      "name": "Manama",
+      "country_id": "17"
+    },
+    {
+      "id": "333",
+      "name": "Sitrah",
+      "country_id": "17"
+    },
+    {
+      "id": "334",
+      "name": "al-Manamah",
+      "country_id": "17"
+    },
+    {
+      "id": "335",
+      "name": "al-Muharraq",
+      "country_id": "17"
+    },
+    {
+      "id": "336",
+      "name": "ar-Rifa''a",
+      "country_id": "17"
+    },
+    {
+      "id": "337",
+      "name": "Bagar Hat",
+      "country_id": "18"
+    },
+    {
+      "id": "338",
+      "name": "Bandarban",
+      "country_id": "18"
+    },
+    {
+      "id": "339",
+      "name": "Barguna",
+      "country_id": "18"
+    },
+    {
+      "id": "340",
+      "name": "Barisal",
+      "country_id": "18"
+    },
+    {
+      "id": "341",
+      "name": "Bhola",
+      "country_id": "18"
+    },
+    {
+      "id": "342",
+      "name": "Bogora",
+      "country_id": "18"
+    },
+    {
+      "id": "343",
+      "name": "Brahman Bariya",
+      "country_id": "18"
+    },
+    {
+      "id": "344",
+      "name": "Chandpur",
+      "country_id": "18"
+    },
+    {
+      "id": "345",
+      "name": "Chattagam",
+      "country_id": "18"
+    },
+    {
+      "id": "346",
+      "name": "Chittagong Division",
+      "country_id": "18"
+    },
+    {
+      "id": "347",
+      "name": "Chuadanga",
+      "country_id": "18"
+    },
+    {
+      "id": "348",
+      "name": "Dhaka",
+      "country_id": "18"
+    },
+    {
+      "id": "349",
+      "name": "Dinajpur",
+      "country_id": "18"
+    },
+    {
+      "id": "350",
+      "name": "Faridpur",
+      "country_id": "18"
+    },
+    {
+      "id": "351",
+      "name": "Feni",
+      "country_id": "18"
+    },
+    {
+      "id": "352",
+      "name": "Gaybanda",
+      "country_id": "18"
+    },
+    {
+      "id": "353",
+      "name": "Gazipur",
+      "country_id": "18"
+    },
+    {
+      "id": "354",
+      "name": "Gopalganj",
+      "country_id": "18"
+    },
+    {
+      "id": "355",
+      "name": "Habiganj",
+      "country_id": "18"
+    },
+    {
+      "id": "356",
+      "name": "Jaipur Hat",
+      "country_id": "18"
+    },
+    {
+      "id": "357",
+      "name": "Jamalpur",
+      "country_id": "18"
+    },
+    {
+      "id": "358",
+      "name": "Jessor",
+      "country_id": "18"
+    },
+    {
+      "id": "359",
+      "name": "Jhalakati",
+      "country_id": "18"
+    },
+    {
+      "id": "360",
+      "name": "Jhanaydah",
+      "country_id": "18"
+    },
+    {
+      "id": "361",
+      "name": "Khagrachhari",
+      "country_id": "18"
+    },
+    {
+      "id": "362",
+      "name": "Khulna",
+      "country_id": "18"
+    },
+    {
+      "id": "363",
+      "name": "Kishorganj",
+      "country_id": "18"
+    },
+    {
+      "id": "364",
+      "name": "Koks Bazar",
+      "country_id": "18"
+    },
+    {
+      "id": "365",
+      "name": "Komilla",
+      "country_id": "18"
+    },
+    {
+      "id": "366",
+      "name": "Kurigram",
+      "country_id": "18"
+    },
+    {
+      "id": "367",
+      "name": "Kushtiya",
+      "country_id": "18"
+    },
+    {
+      "id": "368",
+      "name": "Lakshmipur",
+      "country_id": "18"
+    },
+    {
+      "id": "369",
+      "name": "Lalmanir Hat",
+      "country_id": "18"
+    },
+    {
+      "id": "370",
+      "name": "Madaripur",
+      "country_id": "18"
+    },
+    {
+      "id": "371",
+      "name": "Magura",
+      "country_id": "18"
+    },
+    {
+      "id": "372",
+      "name": "Maimansingh",
+      "country_id": "18"
+    },
+    {
+      "id": "373",
+      "name": "Manikganj",
+      "country_id": "18"
+    },
+    {
+      "id": "374",
+      "name": "Maulvi Bazar",
+      "country_id": "18"
+    },
+    {
+      "id": "375",
+      "name": "Meherpur",
+      "country_id": "18"
+    },
+    {
+      "id": "376",
+      "name": "Munshiganj",
+      "country_id": "18"
+    },
+    {
+      "id": "377",
+      "name": "Naral",
+      "country_id": "18"
+    },
+    {
+      "id": "378",
+      "name": "Narayanganj",
+      "country_id": "18"
+    },
+    {
+      "id": "379",
+      "name": "Narsingdi",
+      "country_id": "18"
+    },
+    {
+      "id": "380",
+      "name": "Nator",
+      "country_id": "18"
+    },
+    {
+      "id": "381",
+      "name": "Naugaon",
+      "country_id": "18"
+    },
+    {
+      "id": "382",
+      "name": "Nawabganj",
+      "country_id": "18"
+    },
+    {
+      "id": "383",
+      "name": "Netrakona",
+      "country_id": "18"
+    },
+    {
+      "id": "384",
+      "name": "Nilphamari",
+      "country_id": "18"
+    },
+    {
+      "id": "385",
+      "name": "Noakhali",
+      "country_id": "18"
+    },
+    {
+      "id": "386",
+      "name": "Pabna",
+      "country_id": "18"
+    },
+    {
+      "id": "387",
+      "name": "Panchagarh",
+      "country_id": "18"
+    },
+    {
+      "id": "388",
+      "name": "Patuakhali",
+      "country_id": "18"
+    },
+    {
+      "id": "389",
+      "name": "Pirojpur",
+      "country_id": "18"
+    },
+    {
+      "id": "390",
+      "name": "Rajbari",
+      "country_id": "18"
+    },
+    {
+      "id": "391",
+      "name": "Rajshahi",
+      "country_id": "18"
+    },
+    {
+      "id": "392",
+      "name": "Rangamati",
+      "country_id": "18"
+    },
+    {
+      "id": "393",
+      "name": "Rangpur",
+      "country_id": "18"
+    },
+    {
+      "id": "394",
+      "name": "Satkhira",
+      "country_id": "18"
+    },
+    {
+      "id": "395",
+      "name": "Shariatpur",
+      "country_id": "18"
+    },
+    {
+      "id": "396",
+      "name": "Sherpur",
+      "country_id": "18"
+    },
+    {
+      "id": "397",
+      "name": "Silhat",
+      "country_id": "18"
+    },
+    {
+      "id": "398",
+      "name": "Sirajganj",
+      "country_id": "18"
+    },
+    {
+      "id": "399",
+      "name": "Sunamganj",
+      "country_id": "18"
+    },
+    {
+      "id": "400",
+      "name": "Tangayal",
+      "country_id": "18"
+    },
+    {
+      "id": "401",
+      "name": "Thakurgaon",
+      "country_id": "18"
+    },
+    {
+      "id": "402",
+      "name": "Christ Church",
+      "country_id": "19"
+    },
+    {
+      "id": "403",
+      "name": "Saint Andrew",
+      "country_id": "19"
+    },
+    {
+      "id": "404",
+      "name": "Saint George",
+      "country_id": "19"
+    },
+    {
+      "id": "405",
+      "name": "Saint James",
+      "country_id": "19"
+    },
+    {
+      "id": "406",
+      "name": "Saint John",
+      "country_id": "19"
+    },
+    {
+      "id": "407",
+      "name": "Saint Joseph",
+      "country_id": "19"
+    },
+    {
+      "id": "408",
+      "name": "Saint Lucy",
+      "country_id": "19"
+    },
+    {
+      "id": "409",
+      "name": "Saint Michael",
+      "country_id": "19"
+    },
+    {
+      "id": "410",
+      "name": "Saint Peter",
+      "country_id": "19"
+    },
+    {
+      "id": "411",
+      "name": "Saint Philip",
+      "country_id": "19"
+    },
+    {
+      "id": "412",
+      "name": "Saint Thomas",
+      "country_id": "19"
+    },
+    {
+      "id": "413",
+      "name": "Brest",
+      "country_id": "20"
+    },
+    {
+      "id": "414",
+      "name": "Homjel",
+      "country_id": "20"
+    },
+    {
+      "id": "415",
+      "name": "Hrodna",
+      "country_id": "20"
+    },
+    {
+      "id": "416",
+      "name": "Mahiljow",
+      "country_id": "20"
+    },
+    {
+      "id": "417",
+      "name": "Mahilyowskaya Voblasts",
+      "country_id": "20"
+    },
+    {
+      "id": "418",
+      "name": "Minsk",
+      "country_id": "20"
+    },
+    {
+      "id": "419",
+      "name": "Minskaja Voblasts",
+      "country_id": "20"
+    },
+    {
+      "id": "420",
+      "name": "Petrik",
+      "country_id": "20"
+    },
+    {
+      "id": "421",
+      "name": "Vicebsk",
+      "country_id": "20"
+    },
+    {
+      "id": "422",
+      "name": "Antwerpen",
+      "country_id": "21"
+    },
+    {
+      "id": "423",
+      "name": "Berchem",
+      "country_id": "21"
+    },
+    {
+      "id": "424",
+      "name": "Brabant",
+      "country_id": "21"
+    },
+    {
+      "id": "425",
+      "name": "Brabant Wallon",
+      "country_id": "21"
+    },
+    {
+      "id": "426",
+      "name": "Brussel",
+      "country_id": "21"
+    },
+    {
+      "id": "427",
+      "name": "East Flanders",
+      "country_id": "21"
+    },
+    {
+      "id": "428",
+      "name": "Hainaut",
+      "country_id": "21"
+    },
+    {
+      "id": "429",
+      "name": "Liege",
+      "country_id": "21"
+    },
+    {
+      "id": "430",
+      "name": "Limburg",
+      "country_id": "21"
+    },
+    {
+      "id": "431",
+      "name": "Luxembourg",
+      "country_id": "21"
+    },
+    {
+      "id": "432",
+      "name": "Namur",
+      "country_id": "21"
+    },
+    {
+      "id": "433",
+      "name": "Ontario",
+      "country_id": "21"
+    },
+    {
+      "id": "434",
+      "name": "Oost-Vlaanderen",
+      "country_id": "21"
+    },
+    {
+      "id": "435",
+      "name": "Provincie Brabant",
+      "country_id": "21"
+    },
+    {
+      "id": "436",
+      "name": "Vlaams-Brabant",
+      "country_id": "21"
+    },
+    {
+      "id": "437",
+      "name": "Wallonne",
+      "country_id": "21"
+    },
+    {
+      "id": "438",
+      "name": "West-Vlaanderen",
+      "country_id": "21"
+    },
+    {
+      "id": "439",
+      "name": "Belize",
+      "country_id": "22"
+    },
+    {
+      "id": "440",
+      "name": "Cayo",
+      "country_id": "22"
+    },
+    {
+      "id": "441",
+      "name": "Corozal",
+      "country_id": "22"
+    },
+    {
+      "id": "442",
+      "name": "Orange Walk",
+      "country_id": "22"
+    },
+    {
+      "id": "443",
+      "name": "Stann Creek",
+      "country_id": "22"
+    },
+    {
+      "id": "444",
+      "name": "Toledo",
+      "country_id": "22"
+    },
+    {
+      "id": "445",
+      "name": "Alibori",
+      "country_id": "23"
+    },
+    {
+      "id": "446",
+      "name": "Atacora",
+      "country_id": "23"
+    },
+    {
+      "id": "447",
+      "name": "Atlantique",
+      "country_id": "23"
+    },
+    {
+      "id": "448",
+      "name": "Borgou",
+      "country_id": "23"
+    },
+    {
+      "id": "449",
+      "name": "Collines",
+      "country_id": "23"
+    },
+    {
+      "id": "450",
+      "name": "Couffo",
+      "country_id": "23"
+    },
+    {
+      "id": "451",
+      "name": "Donga",
+      "country_id": "23"
+    },
+    {
+      "id": "452",
+      "name": "Littoral",
+      "country_id": "23"
+    },
+    {
+      "id": "453",
+      "name": "Mono",
+      "country_id": "23"
+    },
+    {
+      "id": "454",
+      "name": "Oueme",
+      "country_id": "23"
+    },
+    {
+      "id": "455",
+      "name": "Plateau",
+      "country_id": "23"
+    },
+    {
+      "id": "456",
+      "name": "Zou",
+      "country_id": "23"
+    },
+    {
+      "id": "457",
+      "name": "Hamilton",
+      "country_id": "24"
+    },
+    {
+      "id": "458",
+      "name": "Saint George",
+      "country_id": "24"
+    },
+    {
+      "id": "459",
+      "name": "Bumthang",
+      "country_id": "25"
+    },
+    {
+      "id": "460",
+      "name": "Chhukha",
+      "country_id": "25"
+    },
+    {
+      "id": "461",
+      "name": "Chirang",
+      "country_id": "25"
+    },
+    {
+      "id": "462",
+      "name": "Daga",
+      "country_id": "25"
+    },
+    {
+      "id": "463",
+      "name": "Geylegphug",
+      "country_id": "25"
+    },
+    {
+      "id": "464",
+      "name": "Ha",
+      "country_id": "25"
+    },
+    {
+      "id": "465",
+      "name": "Lhuntshi",
+      "country_id": "25"
+    },
+    {
+      "id": "466",
+      "name": "Mongar",
+      "country_id": "25"
+    },
+    {
+      "id": "467",
+      "name": "Pemagatsel",
+      "country_id": "25"
+    },
+    {
+      "id": "468",
+      "name": "Punakha",
+      "country_id": "25"
+    },
+    {
+      "id": "469",
+      "name": "Rinpung",
+      "country_id": "25"
+    },
+    {
+      "id": "470",
+      "name": "Samchi",
+      "country_id": "25"
+    },
+    {
+      "id": "471",
+      "name": "Samdrup Jongkhar",
+      "country_id": "25"
+    },
+    {
+      "id": "472",
+      "name": "Shemgang",
+      "country_id": "25"
+    },
+    {
+      "id": "473",
+      "name": "Tashigang",
+      "country_id": "25"
+    },
+    {
+      "id": "474",
+      "name": "Timphu",
+      "country_id": "25"
+    },
+    {
+      "id": "475",
+      "name": "Tongsa",
+      "country_id": "25"
+    },
+    {
+      "id": "476",
+      "name": "Wangdiphodrang",
+      "country_id": "25"
+    },
+    {
+      "id": "477",
+      "name": "Beni",
+      "country_id": "26"
+    },
+    {
+      "id": "478",
+      "name": "Chuquisaca",
+      "country_id": "26"
+    },
+    {
+      "id": "479",
+      "name": "Cochabamba",
+      "country_id": "26"
+    },
+    {
+      "id": "480",
+      "name": "La Paz",
+      "country_id": "26"
+    },
+    {
+      "id": "481",
+      "name": "Oruro",
+      "country_id": "26"
+    },
+    {
+      "id": "482",
+      "name": "Pando",
+      "country_id": "26"
+    },
+    {
+      "id": "483",
+      "name": "Potosi",
+      "country_id": "26"
+    },
+    {
+      "id": "484",
+      "name": "Santa Cruz",
+      "country_id": "26"
+    },
+    {
+      "id": "485",
+      "name": "Tarija",
+      "country_id": "26"
+    },
+    {
+      "id": "486",
+      "name": "Federacija Bosna i Hercegovina",
+      "country_id": "27"
+    },
+    {
+      "id": "487",
+      "name": "Republika Srpska",
+      "country_id": "27"
+    },
+    {
+      "id": "488",
+      "name": "Central Bobonong",
+      "country_id": "28"
+    },
+    {
+      "id": "489",
+      "name": "Central Boteti",
+      "country_id": "28"
+    },
+    {
+      "id": "490",
+      "name": "Central Mahalapye",
+      "country_id": "28"
+    },
+    {
+      "id": "491",
+      "name": "Central Serowe-Palapye",
+      "country_id": "28"
+    },
+    {
+      "id": "492",
+      "name": "Central Tutume",
+      "country_id": "28"
+    },
+    {
+      "id": "493",
+      "name": "Chobe",
+      "country_id": "28"
+    },
+    {
+      "id": "494",
+      "name": "Francistown",
+      "country_id": "28"
+    },
+    {
+      "id": "495",
+      "name": "Gaborone",
+      "country_id": "28"
+    },
+    {
+      "id": "496",
+      "name": "Ghanzi",
+      "country_id": "28"
+    },
+    {
+      "id": "497",
+      "name": "Jwaneng",
+      "country_id": "28"
+    },
+    {
+      "id": "498",
+      "name": "Kgalagadi North",
+      "country_id": "28"
+    },
+    {
+      "id": "499",
+      "name": "Kgalagadi South",
+      "country_id": "28"
+    },
+    {
+      "id": "500",
+      "name": "Kgatleng",
+      "country_id": "28"
+    },
+    {
+      "id": "501",
+      "name": "Kweneng",
+      "country_id": "28"
+    },
+    {
+      "id": "502",
+      "name": "Lobatse",
+      "country_id": "28"
+    },
+    {
+      "id": "503",
+      "name": "Ngamiland",
+      "country_id": "28"
+    },
+    {
+      "id": "504",
+      "name": "Ngwaketse",
+      "country_id": "28"
+    },
+    {
+      "id": "505",
+      "name": "North East",
+      "country_id": "28"
+    },
+    {
+      "id": "506",
+      "name": "Okavango",
+      "country_id": "28"
+    },
+    {
+      "id": "507",
+      "name": "Orapa",
+      "country_id": "28"
+    },
+    {
+      "id": "508",
+      "name": "Selibe Phikwe",
+      "country_id": "28"
+    },
+    {
+      "id": "509",
+      "name": "South East",
+      "country_id": "28"
+    },
+    {
+      "id": "510",
+      "name": "Sowa",
+      "country_id": "28"
+    },
+    {
+      "id": "511",
+      "name": "Bouvet Island",
+      "country_id": "29"
+    },
+    {
+      "id": "512",
+      "name": "Acre",
+      "country_id": "30"
+    },
+    {
+      "id": "513",
+      "name": "Alagoas",
+      "country_id": "30"
+    },
+    {
+      "id": "514",
+      "name": "Amapa",
+      "country_id": "30"
+    },
+    {
+      "id": "515",
+      "name": "Amazonas",
+      "country_id": "30"
+    },
+    {
+      "id": "516",
+      "name": "Bahia",
+      "country_id": "30"
+    },
+    {
+      "id": "517",
+      "name": "Ceara",
+      "country_id": "30"
+    },
+    {
+      "id": "518",
+      "name": "Distrito Federal",
+      "country_id": "30"
+    },
+    {
+      "id": "519",
+      "name": "Espirito Santo",
+      "country_id": "30"
+    },
+    {
+      "id": "520",
+      "name": "Estado de Sao Paulo",
+      "country_id": "30"
+    },
+    {
+      "id": "521",
+      "name": "Goias",
+      "country_id": "30"
+    },
+    {
+      "id": "522",
+      "name": "Maranhao",
+      "country_id": "30"
+    },
+    {
+      "id": "523",
+      "name": "Mato Grosso",
+      "country_id": "30"
+    },
+    {
+      "id": "524",
+      "name": "Mato Grosso do Sul",
+      "country_id": "30"
+    },
+    {
+      "id": "525",
+      "name": "Minas Gerais",
+      "country_id": "30"
+    },
+    {
+      "id": "526",
+      "name": "Para",
+      "country_id": "30"
+    },
+    {
+      "id": "527",
+      "name": "Paraiba",
+      "country_id": "30"
+    },
+    {
+      "id": "528",
+      "name": "Parana",
+      "country_id": "30"
+    },
+    {
+      "id": "529",
+      "name": "Pernambuco",
+      "country_id": "30"
+    },
+    {
+      "id": "530",
+      "name": "Piaui",
+      "country_id": "30"
+    },
+    {
+      "id": "531",
+      "name": "Rio Grande do Norte",
+      "country_id": "30"
+    },
+    {
+      "id": "532",
+      "name": "Rio Grande do Sul",
+      "country_id": "30"
+    },
+    {
+      "id": "533",
+      "name": "Rio de Janeiro",
+      "country_id": "30"
+    },
+    {
+      "id": "534",
+      "name": "Rondonia",
+      "country_id": "30"
+    },
+    {
+      "id": "535",
+      "name": "Roraima",
+      "country_id": "30"
+    },
+    {
+      "id": "536",
+      "name": "Santa Catarina",
+      "country_id": "30"
+    },
+    {
+      "id": "537",
+      "name": "Sao Paulo",
+      "country_id": "30"
+    },
+    {
+      "id": "538",
+      "name": "Sergipe",
+      "country_id": "30"
+    },
+    {
+      "id": "539",
+      "name": "Tocantins",
+      "country_id": "30"
+    },
+    {
+      "id": "540",
+      "name": "British Indian Ocean Territory",
+      "country_id": "31"
+    },
+    {
+      "id": "541",
+      "name": "Belait",
+      "country_id": "32"
+    },
+    {
+      "id": "542",
+      "name": "Brunei-Muara",
+      "country_id": "32"
+    },
+    {
+      "id": "543",
+      "name": "Temburong",
+      "country_id": "32"
+    },
+    {
+      "id": "544",
+      "name": "Tutong",
+      "country_id": "32"
+    },
+    {
+      "id": "545",
+      "name": "Blagoevgrad",
+      "country_id": "33"
+    },
+    {
+      "id": "546",
+      "name": "Burgas",
+      "country_id": "33"
+    },
+    {
+      "id": "547",
+      "name": "Dobrich",
+      "country_id": "33"
+    },
+    {
+      "id": "548",
+      "name": "Gabrovo",
+      "country_id": "33"
+    },
+    {
+      "id": "549",
+      "name": "Haskovo",
+      "country_id": "33"
+    },
+    {
+      "id": "550",
+      "name": "Jambol",
+      "country_id": "33"
+    },
+    {
+      "id": "551",
+      "name": "Kardzhali",
+      "country_id": "33"
+    },
+    {
+      "id": "552",
+      "name": "Kjustendil",
+      "country_id": "33"
+    },
+    {
+      "id": "553",
+      "name": "Lovech",
+      "country_id": "33"
+    },
+    {
+      "id": "554",
+      "name": "Montana",
+      "country_id": "33"
+    },
+    {
+      "id": "555",
+      "name": "Oblast Sofiya-Grad",
+      "country_id": "33"
+    },
+    {
+      "id": "556",
+      "name": "Pazardzhik",
+      "country_id": "33"
+    },
+    {
+      "id": "557",
+      "name": "Pernik",
+      "country_id": "33"
+    },
+    {
+      "id": "558",
+      "name": "Pleven",
+      "country_id": "33"
+    },
+    {
+      "id": "559",
+      "name": "Plovdiv",
+      "country_id": "33"
+    },
+    {
+      "id": "560",
+      "name": "Razgrad",
+      "country_id": "33"
+    },
+    {
+      "id": "561",
+      "name": "Ruse",
+      "country_id": "33"
+    },
+    {
+      "id": "562",
+      "name": "Shumen",
+      "country_id": "33"
+    }
+    
+  ]
+}
