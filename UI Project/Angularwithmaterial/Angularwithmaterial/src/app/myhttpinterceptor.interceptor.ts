@@ -40,7 +40,11 @@ export class MyHttpLogInterceptor implements HttpInterceptor {
                         return 'Deleted Successfully';
 
                     }
-                    if (error.status == 401) {
+                    if( error.status==0){
+                        
+                        this.router.navigate(['/login'])
+                    }
+                    if (error.status == 401  ) {
                         alert(error.error)
                      this.router.navigate(['/login'])
                     }
